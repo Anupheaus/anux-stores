@@ -1,0 +1,24 @@
+{
+  "name": "anux-stores",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/Anupheaus/anux-stores.git",
+  "author": "Anupheaus",
+  "license": "Apache-2.0",
+  "private": false,
+  "scripts": {
+    "build": "anux build",
+    "build:dev": "anux build dev"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "anux-common": "^1.0.86"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.0",
+    "anux-package": "^1.0.60",
+    "typescript": "^4.2.4"
+  }
+}
